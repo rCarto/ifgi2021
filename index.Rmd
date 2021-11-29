@@ -87,31 +87,19 @@ https://sigr2021.github.io/site/
 
 ## Why?
 
+
+
+Maps, as other graphics or statistical outputs, are part of scientific studies. 
 ```{r, echo = FALSE, out.width="50%"}
 knitr::include_graphics("img/maparticle.jpg")
 ```
 
-Les cartes, comme les autres productions graphiques ou statistiques sont des éléments à parts entières des études scientifiques.
 
-```{r, echo = FALSE, fig.cap="@giraudlambert"}
-knitr::include_graphics("img/giraudlambert.png", dpi=96)
-```
-
-
-
-La plupart des cartes produites dans un contexte académique sont issues de processus complexes.   
-Elles sont souvent produites en utilisant une grande variété de logiciels et de formats.
-
-
-
-
-
+Many maps produced in an academic context are made with a set of software products (spreadsheet, statistical software, GIS…) that slices the cartographic process. 
 ```{r, echo = FALSE}
 knitr::include_graphics("img/chain2.png")
 ```
-
-Cette variété de formats et de logiciels rend difficile la reproduction des cartes.
-
+This multiplicity of tools and formats is an impediment to reproducibility. 
 
 
 
@@ -119,15 +107,6 @@ Cette variété de formats et de logiciels rend difficile la reproduction des ca
 
 
 
-
-
-
-
-```{r, echo = FALSE, out.width="1000px"}
-knitr::include_graphics("img/chain4.png")
-```
-
-Simplifier les chaines de traitement pour couvrir les différentes étapes de la construction cartographique.
 
 
 
@@ -138,18 +117,34 @@ Simplifier les chaines de traitement pour couvrir les différentes étapes de la
 
 ## How?
 
-### With R and its spatial ecosystem !
-
-```{r, echo = FALSE, out.width="25%"}
-knitr::include_graphics("img/Rlogo.png")
+A fully reproducible map should be associated to the code and data used to produce it. 
+```{r, echo = FALSE, fig.cap="@giraudlambert"}
+knitr::include_graphics("img/giraudlambert.png", dpi=96)
 ```
 
+
+
+
+
+
+### With R and its spatial ecosystem !
+
+Simplify the map making process in an unified workflow. 
+
+```{r, echo = FALSE, out.width="1000px"}
+knitr::include_graphics("img/chain4.png")
+```
+
+
+
+
 ### `sf`, corner stone of the R spatial ecosystem
+
+
 
 ```{r, echo = FALSE, fig.cap="@pebesma"}
 knitr::include_graphics("img/sf_deps.png")
 ```
-
 
 
 
@@ -912,6 +907,27 @@ knitr::include_graphics("img/fire.png")
 
 
 [<img src="img/ghlogo.png" width=100px alt="GitHub repo"/>](https://github.com/rcarto/spikemap)
+
+
+
+## more...
+
+```{r, echo = FALSE, out.width="2000px", fig.cap="@lambert21"}
+knitr::include_graphics("img/iron.png")
+```
+
+```{r, echo = FALSE, out.width="1210px", fig.cap="@Giraud_2019"}
+knitr::include_graphics("img/all.png")
+```
+
+
+```{r, echo = FALSE, out.width="1248px", fig.cap="@Le_Goix_2021"}
+knitr::include_graphics("img/legoix.jpg")
+```
+
+
+
+
 
 
 # 

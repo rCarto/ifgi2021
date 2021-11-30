@@ -51,11 +51,7 @@ knitr::include_graphics("img/magrit.png")
 
 http://magrit.cnrs.fr
 
-### R Packages
 
-A set of R packages
-osrm, potential, MTA...
-github.com/riatelab
 
 ## Reproducible Research Promotion
 
@@ -172,7 +168,7 @@ mf_map(x = objet_sf,
 
 
 
-```{r, echo = FALSE, out.width="100%", fig.cap="?mapsf"}
+```{r, echo = FALSE, out.width="100%", fig.cap="?mf_map()"}
 knitr::include_graphics("img/help.png")
 ```
 

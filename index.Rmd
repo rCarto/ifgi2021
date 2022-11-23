@@ -500,7 +500,7 @@ mf_inset_off()
 </div>
 
 * Non-cartographic inset
-```{r bee, results = FALSE, eval = FALSE}
+```{r bee, results = FALSE, eval = TRUE}
 library(mapsf)
 library(beeswarm)
 mtq <- mf_get_mtq()
@@ -513,7 +513,6 @@ pal <- hcl.colors(n = 4, palette = "Burg", rev = TRUE)
 # set a theme
 mf_theme("candy")
 mf_export(x = mtq, filename = "img/insetbee.svg",
-          export = "svg", 
           width = 7,theme = "candy")
 fg <-mf_theme()$fg
 # Create the map
